@@ -83,24 +83,32 @@ header {
     font-size: 100px;
     text-transform: uppercase;
     color: white;
+    padding: 164px 50px 7px;
     letter-spacing: 60px;
+    display: grid;
+    gap: 20px;
+}
+
+.cover__title:last-child {
+    padding-bottom: 0px;
 }
 
 .aligned-text {
     display: block;
     text-align: left;
-    padding: 165px 50px 11px;
+    line-height: 115%;
 }
 
 .aligned-text_center {
     display: block;
     text-align: center;
+    line-height: 100%;
 }
 
 .aligned-text_right {
     display: block;
     text-align: right;
-    padding-right: 50px;
+    line-height: 100%;
 }
 
 .no-letter-spacing {
@@ -147,7 +155,7 @@ header {
 /* лоты */
 
 .lots {    
-    padding: 178px 24px 146px;
+    padding: 180px 24px 146px;
 }
 
 .lots__title {
@@ -229,7 +237,7 @@ header {
     font-weight: normal;
     font-size: 20px;
     display: inline-block;
-    margin: 30px 40px;
+    margin: 29px 40px;
 }
 
 .about {
@@ -281,7 +289,7 @@ header {
 }
 
 footer {
-    padding: 180px 49px 0px 51px;
+    padding: 180px 49px 88px 51px;
     display: flex;
     justify-content: space-between;
 }
